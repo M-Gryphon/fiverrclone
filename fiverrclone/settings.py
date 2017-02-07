@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'fiverrcloneapp',
-    'social.apps.django_app.default',
+    'social_django',
 ]
 
 MIDDLEWARE = [
@@ -124,7 +124,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 AUTHENTICATION_BACKENDS = {
-  'social.backends.facebook.FacebookOAuth2',
+  'social_core.backends.facebook.FacebookOAuth2',
   'django.contrib.auth.backends.ModelBackend'
 }
 
