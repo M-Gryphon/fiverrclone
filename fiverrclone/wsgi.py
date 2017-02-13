@@ -15,6 +15,6 @@ os.environ.setdefault("DJANGO_SETTINGS_MODULE", "fiverrclone.settings")
 
 application = get_wsgi_application()
 
-# Use whitehoise to serve static files on Heroku
+# Use whitenoise to serve static files on Heroku
 from whitenoise.django import DjangoWhiteNoise
 application = DjangoWhiteNoise(application)

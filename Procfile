@@ -1,1 +1,1 @@
-web: gunicorn fiverrclone.wsgi --log-file-
+web: gunicorn fiverrclone.wsgi --log-file -
