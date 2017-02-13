@@ -25,7 +25,7 @@ SECRET_KEY = 'cg25sg)0@jfe+cjc%l!3%lg4v7g6qyoo%l^wd$-o(j^el@rtw3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'fiverrclone.heroku.com']
 
 
 # Application definition
