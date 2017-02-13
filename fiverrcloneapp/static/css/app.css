@@ -5,3 +5,15 @@
 body {
   padding-top: 80px;
 }
+
+#category a {
+  padding-top: 5px 15px;
+}
+
+#body {
+  background-color: #f7f7f7;
+}
+
+#footer {
+  padding: 20px 0;
+}

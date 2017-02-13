@@ -53,10 +53,16 @@
       </div>
     </nav>
     <hr/>
-    {% block page %}
-    {% endblock %}
-    <div>
-      Footer
+    <div id="body">
+      <div class="container">
+        {% block page %}
+        {% endblock %}
+      </div>
     </div>
+    <footer id="footer">
+      <div class="container">
+        <span>FiverrClone App &copy; 2017</span>
+      </div>
+    </footer>
   </body>
 </html>
